@@ -8,26 +8,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.androidtest.CourseActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp"
-        android:text="コース選択"
-        android:textSize="70sp"
-        android:textStyle="bold" />
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
-        android:text="1. いぬ vs ねこ"
-        android:textSize="35sp" />
+        android:layout_marginTop="120dp"
+        android:text="3.　Python　vs　Java"
+        android:textSize="30sp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/button2"
@@ -35,19 +25,29 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="113dp"
-        android:text="2. きのこの山 vs たけのこの里"
-        android:textSize="35sp" />
+        android:layout_marginTop="126dp"
+        android:text="2.　きのこの山　vs　たけのこの里"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="121dp"
-        android:text="3. Python vs Java"
-        android:textSize="35sp"
-        android:textStyle="normal" />
+        android:layout_marginTop="150dp"
+        android:text="1.　いぬ　vs　ねこ"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="コース選択"
+        android:textSize="70sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

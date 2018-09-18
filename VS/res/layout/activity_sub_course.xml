@@ -8,27 +8,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.androidtest.SubCourseActivity" >
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="134dp"
-        android:text="あなたはどっち？"
-        android:textSize="50sp" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_below="@+id/textView2"
-        android:layout_marginLeft="158dp"
-        android:layout_marginTop="290dp"
-        android:text="VS"
-        android:textSize="30sp" />
-
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
@@ -38,5 +17,26 @@
         android:layout_marginLeft="14dp"
         android:layout_marginTop="180dp"
         android:src="@drawable/dog" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:text="あなたはどっち？"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="VS"
+        android:textSize="30sp" />
 
 </RelativeLayout>
