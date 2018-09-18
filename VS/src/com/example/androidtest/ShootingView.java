@@ -13,7 +13,6 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-
 //シューティングゲーム
 public class ShootingView extends SurfaceView{
 	implements SurfaceHolder.Callback, Runnable {
