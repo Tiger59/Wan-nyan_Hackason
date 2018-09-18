@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CourseActivity"
+            android:label="@string/title_activity_course" >
+        </activity>
+        <activity
+            android:name=".SubCourseActivity"
+            android:label="@string/title_activity_sub_course" >
+        </activity>
     </application>
 
 </manifest>
