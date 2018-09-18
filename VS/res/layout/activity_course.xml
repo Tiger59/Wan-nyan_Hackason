@@ -16,7 +16,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp"
         android:text="コース選択"
-        android:textSize="70sp" />
+        android:textSize="70sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button1"
@@ -42,10 +43,11 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="112dp"
+        android:layout_marginBottom="121dp"
         android:text="3. Python vs Java"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:textStyle="normal" />
 
 </RelativeLayout>
